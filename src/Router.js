@@ -23,6 +23,7 @@ export default function Router() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/Deploysite1" element={<Home />}></Route>
           <Route path="/AboutUs" element={<AboutUs />}></Route>
           <Route path="/Careers" element={<Careers />}></Route>
           <Route path="/Blogs" element={<BlogPage />}></Route>
